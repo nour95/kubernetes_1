@@ -1,3 +1,5 @@
+cd /Users/nour/Desktop/nour/kth/period4/devops/demo2
+
 - starting minikube:
 minikube start --driver=virtualbox
 
@@ -28,7 +30,8 @@ ansible-playbook playbook.yml --extra-vars "image_id=nouralhuda95/j1"
 java -jar jenkins.war
 
 
-
+- to run ngrok:
+./ngrok http 8080
 
 
 
