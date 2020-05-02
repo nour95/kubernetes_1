@@ -24,6 +24,8 @@ docker push nouralhuda95/j1:latest
 ansible-playbook playbook.yml --extra-vars "image_id=nouralhuda95/j1"
 
 
+- to run jenkis
+java -jar jenkins.war
 
 
 

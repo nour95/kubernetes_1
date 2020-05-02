@@ -2,7 +2,7 @@ var http = require('http');
 var requests=0;
 var podname= process.env.HOSTNAME;
 var host;
-var versionNumber = 2;
+var versionNumber = 3;
 
 var handleRequest = function(request, response)
 {
