@@ -11,6 +11,7 @@ var handleRequest = function(request, response)
   response.write("Current host is: " + host + "\n");
   if (requests == 10 ) {
     response.write("That is boring. you requested the time many times. Go and do something else.");
+    requests = 0;
   } else {
     response.write("Hello! The time now is: " + new Date());
     requests++;
