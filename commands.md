@@ -39,6 +39,7 @@ java -jar jenkins.war
 
 
 
+#nodePort: 31000
 
 
 
