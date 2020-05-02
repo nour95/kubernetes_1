@@ -1,5 +1,7 @@
 cd /Users/nour/Desktop/nour/kth/period4/devops/demo2
 
+open Docker (Application)
+
 - starting minikube:
 minikube start --driver=virtualbox
 

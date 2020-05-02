@@ -15,7 +15,7 @@ pipeline {
        stage('Publish') {
            steps{
                script {
-                   def appimage = docker.build(registry + ":$BUILD_NUMBER")
+                   def appimage = docker.build(registry + ":$BUILD_NUMBER", "-f deploy/Dockerfile2 .")
                    docker.withRegistry( '', 'docker-token' ) {
                        appimage.push()
                    }
